@@ -1,17 +1,17 @@
 # 🌌 Antigravity Awesome Skills: The Ultimate Claude Code Skills Collection
 
-> **The Ultimate Collection of 60+ Agentic Skills for Claude Code (Antigravity)**
+> **The Ultimate Collection of 130+ Agentic Skills for Claude Code (Antigravity)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/AI-Claude%20Code-purple)](https://claude.ai)
 [![Agentic](https://img.shields.io/badge/Agentic-Framework-blue)](https://github.com/guanyang/antigravity-skills)
 
-**Antigravity Awesome Skills** is the ultimate **Claude Code Skills** collection—a curated, battle-tested library of **71 high-performance skills** compatible with both **Antigravity** and **Claude Code**. This repository provides the essential **Claude Code skills** needed to transform your AI assistant into a full-stack digital agency, including official capabilities from **Anthropic** and **Vercel Labs**.
+**Antigravity Awesome Skills** is the ultimate **Claude Code Skills** collection—a curated, battle-tested library of **131 high-performance skills** compatible with both **Antigravity** and **Claude Code**. This repository provides the essential **Claude Code skills** needed to transform your AI assistant into a full-stack digital agency, including official capabilities from **Anthropic** and **Vercel Labs**.
 
 ## 📍 Table of Contents
 
 - [Features & Categories](#features--categories)
-- [Full Skill Registry](#full-skill-registry-7171)
+- [Full Skill Registry](#full-skill-registry-131131)
 - [Installation](#installation)
 - [How to Contribute](#how-to-contribute)
 - [Credits & Sources](#credits--sources)
@@ -36,7 +36,7 @@ The repository is organized into several key areas of expertise:
 
 ---
 
-## Full Skill Registry (71/71)
+## Full Skill Registry (131/131)
 
 Below is the complete list of available skills. Each skill folder contains a `SKILL.md` that can be imported into Antigravity or Claude Code.
 
@@ -50,6 +50,7 @@ Below is the complete list of available skills. Each skill folder contains a `SK
 | **Autonomous Agent Patterns**      | Design patterns for autonomous coding agents and tools.         | `skills/autonomous-agent-patterns` ⭐ NEW      |
 | **AWS Pentesting**                 | Specialized security assessment for Amazon Web Services.        | `skills/aws-penetration-testing`               |
 | **Backend Guidelines**             | Core architecture patterns for Node/Express microservices.      | `skills/backend-dev-guidelines`                |
+| **Claude Code Guide**              | Master guide for configuring and using Claude Code.             | `skills/claude-code-guide` ⭐ NEW              |
 | **Concise Planning**               | Atomic, actionable task planning and checklists.                | `skills/concise-planning` ⭐ NEW               |
 | **Brainstorming**                  | Requirement discovery and intent exploration framework.         | `skills/brainstorming`                         |
 | **Brand Guidelines (Anthropic)**   | Official Anthropic brand styling and visual standards.          | `skills/brand-guidelines-anthropic` ⭐ NEW     |
