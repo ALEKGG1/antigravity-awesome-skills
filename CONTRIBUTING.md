@@ -10,6 +10,8 @@ With V4, we raised the bar for quality. Please read the **new Quality Standards*
 **Critical for new skills:** Every skill submitted must pass our **5-Point Quality Check** (see `docs/QUALITY_BAR.md` for details):
 
 1.  **Metadata**: Correct Frontmatter (`name`, `description`).
+    - The `name` MUST exactly match the folder name.
+    - The `description` MUST be concise (under 200 characters) and focus on WHEN to trigger the skill.
 2.  **Safety**: No harmful commands without "Risk" labels.
 3.  **Clarity**: Clear "When to use" section.
 4.  **Examples**: At least one copy-paste usage example.
@@ -45,6 +47,23 @@ You don't need to be an expert! Here are ways anyone can help:
 - Try skills and report what works/doesn't work
 - Test on different AI tools
 - Suggest improvements
+
+---
+
+## Local development setup
+
+To run validation, index generation, and README updates locally:
+
+1. **Node.js** (for catalog and installer): `npm ci`
+2. **Python 3** (for validate, index, readme scripts): install dependencies with
+   ```bash
+   pip install -r requirements.txt
+   ```
+   Then you can run `npm run chain` (validate → index → readme) and `npm run catalog`.
+
+**Validation:** The canonical validator is **Python** (`scripts/validate_skills.py`). Use `npm run validate` (or `npm run validate:strict` for CI-style checks). The JavaScript validator (`scripts/validate-skills.js`) is legacy/optional and uses a different schema; CI and PR checks rely on the Python validator only.
+
+**npm audit:** CI runs `npm audit --audit-level=high`. To fix issues locally: run `npm audit`, then `npm update` or `npm audit fix` as appropriate; for breaking changes, update dependencies manually and run tests.
 
 ---
 
