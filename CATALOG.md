@@ -111,7 +111,7 @@ Total skills: 883
 | `startup-metrics-framework` | This skill should be used when the user asks about \"key startup | startup, metrics, framework | startup, metrics, framework, skill, should, used, user, asks, about, key |
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 
-## data-ai (144)
+## data-ai (143)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -242,7 +242,6 @@ Total skills: 883
 | `sql-injection-testing` | This skill should be used when the user asks to "test for SQL injection vulnerabilities", "perform SQLi attacks", "bypass authentication using SQL injection"... | sql, injection | sql, injection, testing, skill, should, used, user, asks, test, vulnerabilities, perform, sqli |
 | `sql-optimization-patterns` | Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dramatically improve database performance and eliminate slow queries. Use when de... | sql, optimization | sql, optimization, query, indexing, explain, analysis, dramatically, improve, database, performance, eliminate, slow |
 | `sqlmap-database-pentesting` | This skill should be used when the user asks to "automate SQL injection testing," "enumerate database structure," "extract database credentials using sqlmap,... | sqlmap, database, pentesting | sqlmap, database, pentesting, skill, should, used, user, asks, automate, sql, injection, testing |
-| `stitch-ui-design` | Expert guide for creating effective prompts for Google Stitch AI UI design tool. Use when user wants to design UI/UX in Stitch, create app interfaces, genera... | stitch, ui | stitch, ui, creating, effective, prompts, google, ai, user, wants, ux, app, interfaces |
 | `supabase-automation` | Automate Supabase database queries, table management, project administration, storage, edge functions, and SQL execution via Rube MCP (Composio). Always sear... | supabase | supabase, automation, automate, database, queries, table, administration, storage, edge, functions, sql, execution |
 | `team-collaboration-standup-notes` | You are an expert team communication specialist focused on async-first standup practices, AI-assisted note generation from commit history, and effective remo... | team, collaboration, standup, notes | team, collaboration, standup, notes, communication, async, first, ai, assisted, note, generation, commit |
 | `telegram-bot-builder` | Expert in building Telegram bots that solve real problems - from simple automation to complex AI-powered bots. Covers bot architecture, the Telegram Bot API,... | telegram, bot, builder | telegram, bot, builder, building, bots, solve, real, problems, simple, automation, complex, ai |
@@ -406,7 +405,7 @@ Total skills: 883
 | `webapp-testing` | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing... | webapp | webapp, testing, toolkit, interacting, local, web, applications, playwright, supports, verifying, frontend, functionality |
 | `zustand-store-ts` | Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creati... | zustand, store, ts | zustand, store, ts, stores, typescript, subscribewithselector, middleware, proper, state, action, separation, building |
 
-## general (216)
+## general (217)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -601,6 +600,7 @@ Total skills: 883
 | `skill-rails-upgrade` | Analyze Rails apps and provide upgrade assessments | skill, rails, upgrade | skill, rails, upgrade, analyze, apps, provide, assessments |
 | `slack-gif-creator` | Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users reques... | slack, gif, creator | slack, gif, creator, knowledge, utilities, creating, animated, gifs, optimized, provides, constraints, validation |
 | `social-content` | When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. A... | social, content | social, content, user, wants, creating, scheduling, optimizing, media, linkedin, twitter, instagram, tiktok |
+| `stitch-ui-design` | Expert prompt guide for Google Stitch UI design tool, covering structure, specificity, iteration, and design-to-code workflows. | stitch, ui | stitch, ui, prompt, google, covering, structure, specificity, iteration, code |
 | `subagent-driven-development` | Use when executing implementation plans with independent tasks in the current session | subagent, driven | subagent, driven, development, executing, plans, independent, tasks, current, session |
 | `superpowers-lab` | Lab environment for Claude superpowers | superpowers, lab | superpowers, lab, environment, claude |
 | `team-composition-analysis` | This skill should be used when the user asks to \"plan team | team, composition | team, composition, analysis, skill, should, used, user, asks, plan |

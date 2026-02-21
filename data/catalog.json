@@ -17690,8 +17690,8 @@
     {
       "id": "stitch-ui-design",
       "name": "stitch-ui-design",
-      "description": "Expert guide for creating effective prompts for Google Stitch AI UI design tool. Use when user wants to design UI/UX in Stitch, create app interfaces, generate mobile/web designs, or needs help cra...",
-      "category": "data-ai",
+      "description": "Expert prompt guide for Google Stitch UI design tool, covering structure, specificity, iteration, and design-to-code workflows.",
+      "category": "general",
       "tags": [
         "stitch",
         "ui"
@@ -17699,16 +17699,13 @@
       "triggers": [
         "stitch",
         "ui",
-        "creating",
-        "effective",
-        "prompts",
+        "prompt",
         "google",
-        "ai",
-        "user",
-        "wants",
-        "ux",
-        "app",
-        "interfaces"
+        "covering",
+        "structure",
+        "specificity",
+        "iteration",
+        "code"
       ],
       "path": "skills/stitch-ui-design/SKILL.md"
     },
